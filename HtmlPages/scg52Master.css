@@ -1,0 +1,59 @@
+#body{
+	background-color: #0a1ace;
+	color: #FFF;
+}
+
+#header{
+    background-color: #0a1ace;
+}
+
+#header li{
+	background-color: #fff;
+}
+
+.logo{
+    background-color: #fff;
+}
+
+#footer{
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    padding: 5px;
+}
+
+#title{
+    background-color: #0a1ace;
+}
+
+#description{
+    background-color: #0a1ace;
+}
+
+#row{
+   background-color: #8e96ed;
+}
+
+#left{
+	background-color: #85aff2;
+}
+
+#middle{
+    background-color: #85aff2;
+}
+
+#right{
+    background-color: #85aff2;
+}
+
+#videos{
+
+}
+
+#pictures{
+
+}
+
+.current{   /*unitalicize current section*/
+
+}
