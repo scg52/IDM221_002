@@ -1,19 +1,19 @@
 #body{
     background-color: #0a1ace;
     color: #FFF;
-    font-family: 'Vollkorn', serif;
     font-size: 16pt;
 }
 
 #header{
     background-color: #0a1ace;
-    font-family: 'Cinzel Decorative', cursive, sans-serif;
 
 }
 
 #header li{
     background-color: #fff;
-    font-family: 'Cinzel Decorative', cursive, sans-serif;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
     font-size: 1.5625rem;
     font-weight: 2.5rem;
 }
@@ -27,20 +27,17 @@
     color: #FFF;
     text-align: center;
     padding: 5px;
-    font-family: 'Vollkorn', serif;
     font-size: .75rem;
 }
 
 #title{
     background-color: #0a1ace;
-    font-family: 'Cinzel Decorative', cursive, sans-serif;
     font-size: 1.875rem;
     text-align: center;
 }
 
 #description{
     background-color: #0a1ace;
-    font-family: 'Vollkorn', serif;
     font-size: 1rem;
 }
 
@@ -70,10 +67,17 @@
 }
 
 #pictures{
-    font-family: 'Vollkorn', serif;
     font-size: 1.875rem;
     text-align: center;
 
+}
+
+.cinzel{
+    font-family: 'Cinzel Decorative', cursive, sans-serif;
+}
+
+.vollkorn{
+    font-family: 'Vollkorn', serif;
 }
 
 .current{   
