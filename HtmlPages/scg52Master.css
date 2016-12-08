@@ -1,7 +1,9 @@
 *{
-    background-color: #000;
-    color: #fff;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 html{
@@ -13,80 +15,126 @@ img{
     height: 100%;
 }
 
-#everything{
+.everything{
     margin-left: auto;
     margin-right: auto;
     width: 960px;
-}
-
-#body{
-    
-}
-
-#header{
-    
     text-align: center;
-    height: 100px;
-    width: 100px;
 }
 
-#footer{
+.body{
     text-align: center;
-    padding: 30px;
-    font-size: .75rem;
 }
 
-#title{
+.banner{
+    height: 200px;
+    width: 960px;
+}
+
+#navbar{
+    text-align: center;
+    height: 50px;
+    width: 960px;
+    background-color: #111;
+}
+
+#navbar ul{
+    display: table;
+    width: 100%;
+    height: 50px;
+}
+
+
+#navbar li{
+    font-family: 'Vollkorn', cursive, sans-serif;
+    text-decoration-style: none;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.5625rem;
+    font-weight: 2.5rem;
+    width: 300px;
+    height: 100%;
+}
+
+#navbar li a{
+    color: #bbb;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#navbar li a:hover {
+    color: #fff;
+}
+
+
+.title{
     font-size: 1.875rem;
     text-align: center;
+    padding: 10px;
 }
 
-#description{
+.description{
     font-size: 1rem;
 }
 
 /*-----------------------------------------------------------------rows---------------------------------------------------------------------------------------*/
-#rowtop{
+
+.rowmid{
+    width: 640px;
     margin-left: auto;
     margin-right: auto;
-    width: 320px;
+    padding: 10px 0 0 0;
 }
 
 .row{
-    
+
 }
 
 /*----------------------------------------------------------------columns----------------------------------------------------------------------------------------*/
 
-.analog{
-    background-color: white;
-}
-
-.digital{
-    background-color: grey;
-}
-
 .column{
+    background-color: black;
     width: 320px;
     height: 320px;
     float: left;
     padding: 5px;
 }
 
+/*-------------------------------------------------------------------content-------------------------------------------------------------------------------------*/
+
+.divider{
+    height: 25px;
+    width: 960px;
+    background-color: grey;
+    text-align: left;
+    margin: 20px;
+}
+
+.divider p{
+    padding: 0 5px;
+}
+
 #videos{
     font-size: 1.875rem;
     text-align: center;
+    width: 960px;
 }
 
 #videos li{
     font-family: 'Vollkorn', serif;
-    text-align: left;
+    text-align: center;
+    list-style: none;
 }
 
 #pictures{
     font-size: 1.875rem;
     text-align: center;
+}
 
+#pictures img{
+    height: 50%;
+    width: 25%;
 }
 
 .cinzel{
@@ -95,10 +143,6 @@ img{
 
 .vollkorn{
     font-family: 'Vollkorn', serif;
-}
-
-.current{   
-    font-style: normal;
 }
 
 /*---------------------------------------------------------------clearfix------------------------------------------------------------------------------*/
